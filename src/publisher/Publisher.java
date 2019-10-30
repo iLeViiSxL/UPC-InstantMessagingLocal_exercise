@@ -5,7 +5,7 @@ import subscriber.Subscriber;
 
 public interface Publisher {
     
-    void    incPublishers();
+    int    incPublishers();
     int     decPublishers();
     void    attachSubscriber(Subscriber subscriber);
     boolean detachSubscriber(Subscriber subscriber);
